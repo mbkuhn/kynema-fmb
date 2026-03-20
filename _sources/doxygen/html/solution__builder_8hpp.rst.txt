@@ -1,0 +1,14 @@
+.. meta::b201130f7798b35e32dcd2ec1bcdfdba62d8183a68e9545dc774b8c8cf667a28d8d335522848fbb90ec115e60b0f127bbd1a80091ceaad9d7db0b545bacb7ec1
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/components/solution_builder.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/components/solution\_builder.hpp File Reference
+=====================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: solution__builder_8hpp.html

@@ -1,0 +1,14 @@
+.. meta::89548bc758e67c7dca9242175af7d9f17870004032c636361fec7b0e4ac965b692e8e8569ec12137a97505fcf74e278f60bdda7d7a957156061f76dafb6b9ad7
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/solver/linear_solver/dss_handle_umfpack.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/solver/linear\_solver/dss\_handle\_umfpack.hpp File Reference
+========================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dss__handle__umfpack_8hpp.html

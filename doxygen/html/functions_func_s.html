@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kynema API: Class Members - Functions &mdash; Kynema 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/clipboard.min.js"></script>
+        <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Class Members - Functions" href="functions_func_t.html" />
+    <link rel="prev" title="Class Members - Functions" href="functions_func_r.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Kynema
+              <img src="../../_static/oturb_logo_v2.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../user/user.html">User Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../theory/index.html">Theory Manual</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../developer/index.html">Developer Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../developer/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../developer/dev_plan.html">Kynema Development Plan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../developer/documentation.html">Documentation</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Kynema API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="namespaces_namespaces.html">Namespaces</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="annotated_classes.html">Classes</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="annotated.html">Class List</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classes.html">Class Index</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hierarchy.html">Class Hierarchy</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="functions_class_members.html">Class Members</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="files_files.html">Files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../developer/tools.html">Developer Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../testing/index.html">Benchmark Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../publications.html">Kynema Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../acknowledgement.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Kynema</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../developer/index.html">Developer Documentation</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Kynema API</a></li>
+          <li class="breadcrumb-item"><a href="annotated_classes.html">Classes</a></li>
+          <li class="breadcrumb-item"><a href="functions_class_members.html">Class Members</a></li>
+          <li class="breadcrumb-item"><a href="functions_func_functions.html">Functions</a></li>
+      <li class="breadcrumb-item active">Kynema API: Class Members - Functions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/doxygen/html/functions_func_s.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="class-members-functions">
+<h1>Class Members - Functions<a class="headerlink" href="#class-members-functions" title="Permalink to this heading"></a></h1>
+<div class="doxygen-content docutils container">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kynema API: Class Members - Functions</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Kynema API
+   </div>
+   <div id="projectbrief">A flexible multibody structural dynamics code for wind turbines</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="contents">
+<div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
+
+<h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
+<li>save_processed_data()&#160;:&#160;<a class="el" href="classpreprocess__windio__for__BE_1_1WindIOPreprocessor.html#a16a2f22510f3346cd33acfd828b9a431">preprocess_windio_for_BE.WindIOPreprocessor</a></li>
+<li>SaveState()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1BladeInterface.html#a7fc5831172452830de93d59b40a8d3f5">kynema::interfaces::BladeInterface</a>, <a class="el" href="classkynema_1_1interfaces_1_1cfd_1_1Interface.html#a6a4e1e45a5e265b97e86d94a5c9670d9">kynema::interfaces::cfd::Interface</a>, <a class="el" href="classkynema_1_1interfaces_1_1TurbineInterface.html#a24245f8c2ea5ff231c52a365be6fc02b">kynema::interfaces::TurbineInterface</a></li>
+<li>Section()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1components_1_1Section.html#a65c3656c73db78b5990ea02ce27b22a3">kynema::interfaces::components::Section</a></li>
+<li>set_initial_factorization()&#160;:&#160;<a class="el" href="classkynema_1_1dss_1_1Handle_3_01Algorithm_1_1CUDSS_01_4.html#ad2564babdc23613b2444bd1321269696">kynema::dss::Handle&lt; Algorithm::CUDSS &gt;</a></li>
+<li>SetAbsoluteErrorTolerance()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1components_1_1SolutionBuilder.html#a57bbd58c1cbed8330b33e69c36e10b78">kynema::interfaces::components::SolutionBuilder</a></li>
+<li>SetAcceleration()&#160;:&#160;<a class="el" href="classkynema_1_1NodeBuilder.html#ae94287ffc7a087423b68b14ca63cca92">kynema::NodeBuilder</a></li>
+<li>SetAccelerationAboutPoint()&#160;:&#160;<a class="el" href="structkynema_1_1Node.html#a465532a59e8251f895abe58ab7790770">kynema::Node</a></li>
+<li>SetAerodynamicLoads()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1AerodynamicBody.html#ab8713d10d6482650d0ae681e91a97685">kynema::interfaces::components::AerodynamicBody</a>, <a class="el" href="classkynema_1_1interfaces_1_1components_1_1Aerodynamics.html#a3cdad3661ac0a879476e8a226fa9dd8c">kynema::interfaces::components::Aerodynamics</a></li>
+<li>SetAirfoilSections()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1AerodynamicsBuilder.html#a9ed89de9efb17c3ffb91fc2ebe8b2296">kynema::interfaces::components::AerodynamicsBuilder</a></li>
+<li>SetAirfoilToBladeMap()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1AerodynamicsBuilder.html#a211030d7e5fa242102b3fcf9453750ec">kynema::interfaces::components::AerodynamicsBuilder</a></li>
+<li>SetAzimuthAngle()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a41769cea09c6c3a73438f1db03984d13">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetBeamAccelerationAboutPoint()&#160;:&#160;<a class="el" href="classkynema_1_1Model.html#a7369bdb29a8fec61da8b8c030db279d5">kynema::Model</a></li>
+<li>SetBeamVelocityAboutPoint()&#160;:&#160;<a class="el" href="classkynema_1_1Model.html#ad800545a59c3a43f0b8a4509f8142859">kynema::Model</a></li>
+<li>SetBladeNodeMotion()&#160;:&#160;<a class="el" href="structkynema_1_1util_1_1TurbineData.html#a2efca479e2bda8416c08a09a1cda8399">kynema::util::TurbineData</a></li>
+<li>SetBladePitchAngle()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a0e91a72bc44d2d487f2934f8c5f528e5">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetBladeRootMotion()&#160;:&#160;<a class="el" href="structkynema_1_1util_1_1TurbineData.html#a890abed7ab5861bc2a5c8dc08ae85056">kynema::util::TurbineData</a></li>
+<li>SetChunking()&#160;:&#160;<a class="el" href="classkynema_1_1util_1_1NetCdfFile.html#a7c0f4e179065d1e59f5d08590d162308">kynema::util::NetCdfFile</a></li>
+<li>SetConeAngle()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a1b324035073bebc672a8dafceaff42c4">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetControllerInput()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1ControllerBuilder.html#a2bfc4649fefd40537ba470b3362a370d">kynema::interfaces::components::ControllerBuilder</a></li>
+<li>SetDampingFactor()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a53e23b0987be2572012262ecb3f65259">kynema::interfaces::cfd::InterfaceBuilder</a>, <a class="el" href="structkynema_1_1interfaces_1_1components_1_1SolutionBuilder.html#a19119842da089c3c548ad92ddaa50997">kynema::interfaces::components::SolutionBuilder</a></li>
+<li>SetDisplacement()&#160;:&#160;<a class="el" href="classkynema_1_1NodeBuilder.html#a722504ad592aa85da45661f20d581a30">kynema::NodeBuilder</a></li>
+<li>SetElementOrder()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#af55bf3fb45dbf22620ded18987698f98">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetElemLocation()&#160;:&#160;<a class="el" href="classkynema_1_1NodeBuilder.html#a6c775be4ce71dc50d06c22e3207e3998">kynema::NodeBuilder</a></li>
+<li>SetFloatingPlatformAcceleration()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a3797ee82397212962bf0b34f727169d4">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetFloatingPlatformMassMatrix()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#ae28a82b0c84fcda5bdc031fcb67f3a7a">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetFloatingPlatformPosition()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#aeb072581d60b334f67eeed4a7614d7f8">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetFloatingPlatformVelocity()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a2d1e84eebe0219e130188c0f7d9d6095">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetFunctionName()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1ControllerBuilder.html#af53d92f83359e8b35311828eccb00611">kynema::interfaces::components::ControllerBuilder</a></li>
+<li>SetGearBoxRatio()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a86b060d373800268a66d12db0a9b2243">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetGeneratorEfficiency()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a2f8097e3df5d9939646de51c8f757cfe">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetGeneratorPower()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a30f634900d349ac76ee0aa83db9513fe">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetGravity()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#ae36701a7b9c6940653ed3b38505126af">kynema::interfaces::cfd::InterfaceBuilder</a>, <a class="el" href="structkynema_1_1interfaces_1_1components_1_1SolutionBuilder.html#a9751914a245dbf7335d1ccec36ec75e0">kynema::interfaces::components::SolutionBuilder</a>, <a class="el" href="classkynema_1_1Model.html#a4f72a64618b9bd41cacc9df7ac80f9c1">kynema::Model</a></li>
+<li>SetHubDiameter()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a15c65f32b94862604f7a846ed68a46f2">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetHubInertiaMatrix()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a70cf4c0dd5cc189954c719b36ddf67de">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetHubInflow()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1TurbineInterface.html#a9a504b91677ff5bcb6203224952e9f3b">kynema::interfaces::TurbineInterface</a></li>
+<li>SetHubMotion()&#160;:&#160;<a class="el" href="structkynema_1_1util_1_1TurbineData.html#ae6c6722947b8440b6363d08247633a57">kynema::util::TurbineData</a></li>
+<li>SetHubWindSpeed()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#aa77e005dc8278d28b21834b768d86689">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetInflowFromFunction()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1AerodynamicBody.html#a875b079d965453951095ab2b8f10c11f">kynema::interfaces::components::AerodynamicBody</a>, <a class="el" href="classkynema_1_1interfaces_1_1components_1_1Aerodynamics.html#a19c39c64d8f60dc4c31707e7ec297e80">kynema::interfaces::components::Aerodynamics</a></li>
+<li>SetInflowFromVector()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1AerodynamicBody.html#a7627a19dc19098d52e41e2e765cd2773">kynema::interfaces::components::AerodynamicBody</a>, <a class="el" href="classkynema_1_1interfaces_1_1components_1_1Aerodynamics.html#ae74321c2154f0c3d44b8440cccf1d719">kynema::interfaces::components::Aerodynamics</a></li>
+<li>SetInputFilePath()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1ControllerBuilder.html#ac98852fae8a2426d539bacbb67c586c0">kynema::interfaces::components::ControllerBuilder</a></li>
+<li>SetInputs()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1ConstraintData.html#a6fc591347168da7482066f7ebfabbefa">kynema::interfaces::ConstraintData</a></li>
+<li>SetLibraryPath()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1ControllerBuilder.html#a57f5d321ee88dc7d842bd00eefb13653">kynema::interfaces::components::ControllerBuilder</a></li>
+<li>SetLoads()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1Beam.html#a7269dedcb247871d3beccb2b2aed80d8">kynema::interfaces::components::Beam</a>, <a class="el" href="classkynema_1_1interfaces_1_1components_1_1Turbine.html#a657b01cc067474c245655eccc335ee61">kynema::interfaces::components::Turbine</a>, <a class="el" href="structkynema_1_1interfaces_1_1NodeData.html#a9a55d0664ccaf893a28b1e7049c5a1c5">kynema::interfaces::NodeData</a></li>
+<li>SetMaximumNonlinearIterations()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a543b81b4f7675f013915a6a3d9cf028d">kynema::interfaces::cfd::InterfaceBuilder</a>, <a class="el" href="structkynema_1_1interfaces_1_1components_1_1SolutionBuilder.html#a4f35bd5b0e3291e100dbbb446b3a2ec2">kynema::interfaces::components::SolutionBuilder</a></li>
+<li>SetMooringLineAnchorAcceleration()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#abed7cf10e8eb4f81c9de321311969842">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetMooringLineAnchorPosition()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a4d8cec402610c958065673ad2635c795">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetMooringLineAnchorVelocity()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a7ce5976cc8ffd2601ea7b5d8c8498528">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetMooringLineFairleadPosition()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a9a963a2b649d052672b781da95a93795">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetMooringLineStiffness()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#ae91762b0aa942da6193b3c48c8cbd1dd">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetMooringLineUndeformedLength()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a02e186becc415a844fe23d0c3395be88">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetNacelleInertiaMatrix()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#ac5d5ea0f52ad7f3f5319f9af9a1e4818">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetNacelleMotion()&#160;:&#160;<a class="el" href="structkynema_1_1util_1_1TurbineData.html#a5995af2e720fa53829106a264233f873">kynema::util::TurbineData</a></li>
+<li>SetNacelleYawAngle()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#aff26f2428142214c9bdee252f5a42f8e">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetNumberOfAirfoils()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1AerodynamicsBuilder.html#a2b95fb37d5f3c124fefa83327714db64">kynema::interfaces::components::AerodynamicsBuilder</a></li>
+<li>SetNumberOfMooringLines()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a49d942378548b1abf15c873e4014384b">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetOutputBufferSize()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a54d84f0712f4c77b334015ce59b7183c">kynema::interfaces::cfd::InterfaceBuilder</a>, <a class="el" href="structkynema_1_1interfaces_1_1components_1_1OutputsBuilder.html#aea1d8f898ae06b5f3ae454d0d06c8acf">kynema::interfaces::components::OutputsBuilder</a></li>
+<li>SetOutputFile()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a38987fa0178827e3994aa24aaa0b4976">kynema::interfaces::cfd::InterfaceBuilder</a></li>
+<li>SetOutputFilePath()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1components_1_1OutputsBuilder.html#acd38f15ab6f8885f9cc6e984e635b0e0">kynema::interfaces::components::OutputsBuilder</a></li>
+<li>SetOutputStatePrefixes()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#adbc8e34a1535641a03b1b1259c139f00">kynema::interfaces::cfd::InterfaceBuilder</a>, <a class="el" href="structkynema_1_1interfaces_1_1components_1_1OutputsBuilder.html#a01656ada3f7bfdc90efe5cc5360e3da3">kynema::interfaces::components::OutputsBuilder</a></li>
+<li>SetPosition()&#160;:&#160;<a class="el" href="classkynema_1_1NodeBuilder.html#a096ad2388fe25372495f731d49a7526e">kynema::NodeBuilder</a></li>
+<li>SetQuadratureRule()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#a10132440e02e8a8a1c9e97daebfe9571">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetQuadratureStyle()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#a0eaa4304e3607f32e1f576229748724e">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetRelativeErrorTolerance()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1components_1_1SolutionBuilder.html#a82246cdddb0f50bdbaacb4263848e00e">kynema::interfaces::components::SolutionBuilder</a></li>
+<li>SetRootAcceleration()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#a9807518cec19cf0b7cb814cf1395fb97">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetRootDisplacement()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1BladeInterface.html#a2673aa93958c64b942fe9fec4da8b51a">kynema::interfaces::BladeInterface</a></li>
+<li>SetRootPosition()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#a2091eee2007dd025647b789e5d9d07d7">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetRootVelocity()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#a9b7ef04a0d135f5580bba0128764f6d0">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetRotorApexToHub()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#af86c5762ef0151033e9b44f186f07ed5">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetRotorMotion()&#160;:&#160;<a class="el" href="classkynema_1_1util_1_1AeroDynInflowLibrary.html#a7eed2c38dfc8837360b67a53b1c591f8">kynema::util::AeroDynInflowLibrary</a></li>
+<li>SetRotorSpeed()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#af7673f909d1ac0999b65e535ee932fd8">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetSectionRefinement()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1BeamBuilder.html#a958325037abc0fc4928ac3dba8e75f8a">kynema::interfaces::components::BeamBuilder</a></li>
+<li>SetShaftTiltAngle()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#aa4f910bd09b3b0e7d52589862bde6b6c">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetTimeStep()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1cfd_1_1InterfaceBuilder.html#a99c1045ef65e77d7426461a86836137a">kynema::interfaces::cfd::InterfaceBuilder</a>, <a class="el" href="structkynema_1_1interfaces_1_1components_1_1SolutionBuilder.html#aebffdb8eee4d0252c0d3054bc651ef89">kynema::interfaces::components::SolutionBuilder</a></li>
+<li>SetTowerAxisToRotorApex()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a68e0bc4523c9f95f4ac0aa5267f3ca31">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetTowerBasePosition()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a23acd442335c1a2f7155a908928d60f8">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetTowerTopToRotorApex()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#ad38cf1f95037f83e38eeb875b8438b71">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>SetupRotors()&#160;:&#160;<a class="el" href="classkynema_1_1util_1_1AeroDynInflowLibrary.html#a31ca6b1ff314ff86f2a325320133845f">kynema::util::AeroDynInflowLibrary</a></li>
+<li>SetValues()&#160;:&#160;<a class="el" href="structkynema_1_1util_1_1MeshData.html#afb39aa3bb2dbb4773785b03c91a882f9">kynema::util::MeshData</a></li>
+<li>SetVelocity()&#160;:&#160;<a class="el" href="classkynema_1_1NodeBuilder.html#a2891134e5bc3cdd1e4489dfcbf4df40e">kynema::NodeBuilder</a></li>
+<li>SetVelocityAboutPoint()&#160;:&#160;<a class="el" href="structkynema_1_1Node.html#a3aacaaf0f96e5f5046ddc5366536086f">kynema::Node</a></li>
+<li>SetYawBearingInertiaMatrix()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1components_1_1TurbineBuilder.html#a2482f23de8341cc2d12be70e129a3648">kynema::interfaces::components::TurbineBuilder</a></li>
+<li>Solution()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1BladeInterfaceBuilder.html#aeb5e596299789e7449c9040390ac41aa">kynema::interfaces::BladeInterfaceBuilder</a>, <a class="el" href="classkynema_1_1interfaces_1_1TurbineInterfaceBuilder.html#a58ec4873f487cb64c66c59d035250cf4">kynema::interfaces::TurbineInterfaceBuilder</a></li>
+<li>solve()&#160;:&#160;<a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01Algorithm_1_1CUDSS_01_4_00_01CrsMatrixType_00_01MultiVectorType_01_4.html#a3bdf2c17ba78418ff582ba3eb3d10c75">kynema::dss::SolveFunction&lt; Handle&lt; Algorithm::CUDSS &gt;, CrsMatrixType, MultiVectorType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01Algorithm_1_1CUSOLVER__SP_01_4_00_01CrsMatrixType_00_01MultiVectorType_01_4.html#ac193720ede3e09f18f3950de05d2bbb2">kynema::dss::SolveFunction&lt; Handle&lt; Algorithm::CUSOLVER_SP &gt;, CrsMatrixType, MultiVectorType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01Algorithm_1_1KLU_01_4_00_01CrsMatrixType_00_01MultiVectorType_01_4.html#a0934f7ad2fd70c3dafb739a2569f4e5f">kynema::dss::SolveFunction&lt; Handle&lt; Algorithm::KLU &gt;, CrsMatrixType, MultiVectorType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01Algorithm_1_1MKL_01_4_00_01CrsMatrixType_00_01MultiVectorType_01_4.html#a51f3a2eb313b44a568e0afef3aea96ab">kynema::dss::SolveFunction&lt; Handle&lt; Algorithm::MKL &gt;, CrsMatrixType, MultiVectorType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01Algorithm_1_1SUPERLU_01_4_00_01CrsMatrixType_00_01MultiVectorType_01_4.html#a0f508138c6ee0e8501a2dd50d1e45305">kynema::dss::SolveFunction&lt; Handle&lt; Algorithm::SUPERLU &gt;, CrsMatrixType, MultiVectorType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01Algorithm_1_1UMFPACK_01_4_00_01CrsMatrixType_00_01MultiVectorType_01_4.html#aa02bcf9fa9092f8031e2bbf9aed2e045">kynema::dss::SolveFunction&lt; Handle&lt; Algorithm::UMFPACK &gt;, CrsMatrixType, MultiVectorType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SolveFunction_3_01Handle_3_01DSSAlgorithm_1_1SUPERLU__MT_01_4_00_01CrsMat8bba7f2a9841a3a610500124097a935f.html#a562bb2296448b4529b4f3d99d416b4ce">kynema::dss::SolveFunction&lt; Handle&lt; DSSAlgorithm::SUPERLU_MT &gt;, CrsMatrixType, MultiVectorType &gt;</a></li>
+<li>SolveFunction()&#160;:&#160;<a class="el" href="structkynema_1_1dss_1_1SolveFunction.html#a7d16efd6cc74687e97d699624674f496">kynema::dss::SolveFunction&lt; DSSHandleType, CrsMatrixType, MultiVectorType &gt;</a></li>
+<li>Solver()&#160;:&#160;<a class="el" href="structkynema_1_1Solver.html#a7b180013e146e6912a8529abacc68bfa">kynema::Solver&lt; DeviceType &gt;</a></li>
+<li>SpringElement()&#160;:&#160;<a class="el" href="structkynema_1_1SpringElement.html#ac5a908ea048638c2a8dfc691a769887d">kynema::SpringElement</a></li>
+<li>Springs()&#160;:&#160;<a class="el" href="structkynema_1_1Springs.html#a4009bf9784d54d6ad1a9e98e4979f38b">kynema::Springs&lt; DeviceType &gt;</a></li>
+<li>SpringsInput()&#160;:&#160;<a class="el" href="structkynema_1_1SpringsInput.html#a59de4bfbfc76e28d4ea76bc4c36a12c4">kynema::SpringsInput</a></li>
+<li>State()&#160;:&#160;<a class="el" href="structkynema_1_1State.html#afc788202311f68c953311a2f553f1b1c">kynema::State&lt; DeviceType &gt;</a></li>
+<li>SteadyWind()&#160;:&#160;<a class="el" href="structkynema_1_1interfaces_1_1components_1_1Inflow.html#ad6b679ca6e9a01c6c1eb5a2c55f9032e">kynema::interfaces::components::Inflow</a></li>
+<li>Step()&#160;:&#160;<a class="el" href="classkynema_1_1interfaces_1_1BladeInterface.html#a38fcede0ed9520207dcd25c1ba685850">kynema::interfaces::BladeInterface</a>, <a class="el" href="classkynema_1_1interfaces_1_1cfd_1_1Interface.html#a26cf0e8a75df204e9552e5ff4e37dcc4">kynema::interfaces::cfd::Interface</a>, <a class="el" href="classkynema_1_1interfaces_1_1TurbineInterface.html#a8caa3bfc58501516877c0e623d498f26">kynema::interfaces::TurbineInterface</a></li>
+<li>StepParameters()&#160;:&#160;<a class="el" href="structkynema_1_1StepParameters.html#a4ddf1d52e85e742589cb918a29ca9c84">kynema::StepParameters</a></li>
+<li>symbolic()&#160;:&#160;<a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1CUDSS_01_4_00_01CrsMatrixType_01_4.html#a3ee5e27ecc821ddad24a39c9927f6d3b">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::CUDSS &gt;, CrsMatrixType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1CUSOLVER__SP_01_4_00_01CrsMatrixType_01_4.html#af0a290e4cebff59f1d64297c4e90231b">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::CUSOLVER_SP &gt;, CrsMatrixType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1KLU_01_4_00_01CrsMatrixType_01_4.html#a713cfef8bda1688cc0c962b54d120bec">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::KLU &gt;, CrsMatrixType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1MKL_01_4_00_01CrsMatrixType_01_4.html#ad3caa25468b706ffc9ccb697925cfd02">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::MKL &gt;, CrsMatrixType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1SUPERLU_01_4_00_01CrsMatrixType_01_4.html#a2cccb345e9dc977e56c90ebcebb9b567">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::SUPERLU &gt;, CrsMatrixType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1SUPERLU__MT_01_4_00_01CrsMatrixType_01_4.html#a89ec28d9a4ef0d35fe977fcf58527abf">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::SUPERLU_MT &gt;, CrsMatrixType &gt;</a>, <a class="el" href="structkynema_1_1dss_1_1SymbolicFunction_3_01Handle_3_01Algorithm_1_1UMFPACK_01_4_00_01CrsMatrixType_01_4.html#aebd1e341cd07ece9bf580b2198a48012">kynema::dss::SymbolicFunction&lt; Handle&lt; Algorithm::UMFPACK &gt;, CrsMatrixType &gt;</a></li>
+<li>SymbolicFunction()&#160;:&#160;<a class="el" href="structkynema_1_1dss_1_1SymbolicFunction.html#a30900b42881f8d1ed9c3bedcadcdab76">kynema::dss::SymbolicFunction&lt; DSSHandleType, CrsMatrixType &gt;</a></li>
+<li>Sync()&#160;:&#160;<a class="el" href="classkynema_1_1util_1_1NetCdfFile.html#af83366ce78b90574264a112f1fb0287e">kynema::util::NetCdfFile</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="functions_func_r.html" class="btn btn-neutral float-left" title="Class Members - Functions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="functions_func_t.html" class="btn btn-neutral float-right" title="Class Members - Functions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023 - Present, MIT License.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

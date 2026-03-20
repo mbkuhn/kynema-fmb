@@ -1,0 +1,14 @@
+.. meta::64cc14c57295509490e325e11a28d757e0a6cc729f58f1573365c9920889cdfc7e67e7dbb265e521adbd053f860792b6325f8d8b4497d2919da244fecdd390d7
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/system/beams/calculate_Ouu.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/system/beams/calculate\_Ouu.hpp Source File
+======================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: calculate__Ouu_8hpp_source.html

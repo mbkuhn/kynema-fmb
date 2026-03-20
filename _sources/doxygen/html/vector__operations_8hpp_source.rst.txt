@@ -1,0 +1,14 @@
+.. meta::c0de978b47b6e10767a6a0ba417d4ebe77d2227c5a3808ef4f8e819af67bac0fdbc6a2ab3204ff0095f0f1a451e6dabf6186da03dc98f38069162370a48a6d1a
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/math/vector_operations.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/math/vector\_operations.hpp Source File
+==================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: vector__operations_8hpp_source.html

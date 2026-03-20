@@ -1,0 +1,14 @@
+.. meta::35e70e829728bd69cf5575d0b8fe3a4c10e34a49a7504f2635334bc155f7c2f623a11507893cb143f1b47b9d230fd5950c4a92ee1f9407d90f61a15296943d3d
+
+:orphan:
+
+.. title:: Kynema API: Class Members - Typedefs
+
+Class Members - Typedefs
+========================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: functions_type_m.html

@@ -1,0 +1,14 @@
+.. meta::e7ae3f69e805ecdf399189c26d7958c3a9e53c27cd67f25a6938cf1d9385f60d67b373c185f2c110bf9283ba7aad3aa925e0371cf443bc0c7497cd2fc0c88483
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/cfd/floating_platform.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/cfd/floating\_platform.hpp File Reference
+===============================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: floating__platform_8hpp.html

@@ -1,0 +1,14 @@
+.. meta::2ce6c0e25702f9f4692c45b12ee826f0ffa91aab26924314b669a288ebd60e4ea57da70b8e42890bfd3e04c13eeb5288b2c832ae71d94f0d6d9d49d8bc92d749
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/solver/solver.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/solver/solver.hpp File Reference
+===========================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: solver_8hpp.html

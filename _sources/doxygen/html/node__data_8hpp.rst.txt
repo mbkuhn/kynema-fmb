@@ -1,0 +1,14 @@
+.. meta::2e95d0d68836e2ad7649135174cf87f61d7679f5894cbd3d007ab516e3e508fa48c58c854841d5b5305acdeea5cfef9ef548ecfa5bd2888ca88ade7045b98f19
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/node_data.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/node\_data.hpp File Reference
+===================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: node__data_8hpp.html

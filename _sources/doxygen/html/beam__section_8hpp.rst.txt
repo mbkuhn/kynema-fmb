@@ -1,0 +1,14 @@
+.. meta::1ef6b0efdc0adb07970f56ad878e391a773c0a7a28676f81d35e5122affd2cdee3d8a26ee0eba18964f9d98331e8f7a73f76a37a394db03dbb59c07ddb590c17
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/elements/beams/beam_section.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/elements/beams/beam\_section.hpp File Reference
+==========================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: beam__section_8hpp.html

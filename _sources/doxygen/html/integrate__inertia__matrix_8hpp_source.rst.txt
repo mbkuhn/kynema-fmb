@@ -1,0 +1,14 @@
+.. meta::3a523748da9da96533560d2f4fae322f115ef42b6ce81230a469bf10e01b3075127ce65313bb6d85898a1a2173bc24d48f73ef3c4835bdcccfe2963b96ea58c5
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/system/beams/integrate_inertia_matrix.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/system/beams/integrate\_inertia\_matrix.hpp Source File
+==================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: integrate__inertia__matrix_8hpp_source.html

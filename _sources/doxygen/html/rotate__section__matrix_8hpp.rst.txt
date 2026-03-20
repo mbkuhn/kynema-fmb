@@ -1,0 +1,14 @@
+.. meta::805d49d745a39a125e48fe0c0f29391163764ce6b013426efaf72525168002db97ba753806a93755b17563fb2703ddd543ca43e4a9a8ab789911188b5cb92ab5
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/system/masses/rotate_section_matrix.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/system/masses/rotate\_section\_matrix.hpp File Reference
+===================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: rotate__section__matrix_8hpp.html

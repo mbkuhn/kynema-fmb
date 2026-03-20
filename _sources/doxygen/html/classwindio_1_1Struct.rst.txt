@@ -1,0 +1,14 @@
+.. meta::e57664644a1019875fb7c1628336b530402a5eed1626c52aa6b9b9ca73194d787e946b034555b5363135f4a6897cf5e7cd819e5e8aefe8a8379190f532f9755f
+
+:orphan:
+
+.. title:: Kynema API: windio.Struct Class Reference
+
+windio.Struct Class Reference
+=============================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: classwindio_1_1Struct.html

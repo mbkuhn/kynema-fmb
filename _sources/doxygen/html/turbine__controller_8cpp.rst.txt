@@ -1,0 +1,14 @@
+.. meta::275600c69e77a626db40019a1c59046b84f507d078d618979a9f741035663d7c242e8c99688ad16341b0007a23d2a7aefec468d0f0ef2982dcb57cdcc7f34bb9
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/utilities/controllers/turbine_controller.cpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/utilities/controllers/turbine\_controller.cpp File Reference
+=======================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: turbine__controller_8cpp.html

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kynema API: /home/runner/work/kynema/kynema/kynema/src/utilities/controllers/discon.cpp File Reference &mdash; Kynema 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/clipboard.min.js"></script>
+        <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Kynema
+              <img src="../../_static/oturb_logo_v2.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../user/user.html">User Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../theory/index.html">Theory Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../testing/index.html">Benchmark Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../publications.html">Kynema Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../acknowledgement.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Kynema</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Kynema API: /home/runner/work/kynema/kynema/kynema/src/utilities/controllers/discon.cpp File Reference</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/doxygen/html/discon_8cpp.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="home-runner-work-kynema-kynema-kynema-src-utilities-controllers-discon-cpp-file-reference">
+<h1>/home/runner/work/kynema/kynema/kynema/src/utilities/controllers/discon.cpp File Reference<a class="headerlink" href="#home-runner-work-kynema-kynema-kynema-src-utilities-controllers-discon-cpp-file-reference" title="Permalink to this heading"></a></h1>
+<div class="doxygen-content docutils container">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kynema API: /home/runner/work/kynema/kynema/kynema/src/utilities/controllers/discon.cpp File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Kynema API
+   </div>
+   <div id="projectbrief">A flexible multibody structural dynamics code for wind turbines</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7b5d38f1875f1b693f62ca6a108a1129.html">utilities</a></li><li class="navelem"><a class="el" href="dir_acdf0ffd7ea43fbcbbcb4b0d5563ee17.html">controllers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">discon.cpp File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="discon_8hpp_source.html">discon.hpp</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;ranges&gt;</code><br />
+<code>#include &quot;<a class="el" href="controller__io_8hpp_source.html">controller_io.hpp</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkynema_1_1util_1_1InternalState.html">kynema::util::InternalState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacekynema" id="r_namespacekynema"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema.html">kynema</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacekynema_1_1util" id="r_namespacekynema_1_1util"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html">kynema::util</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adb41050b4232889a879f38553af19988" id="r_adb41050b4232889a879f38553af19988"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#adb41050b4232889a879f38553af19988">kynema::util::SetupFirstCall</a> (const <a class="el" href="structkynema_1_1util_1_1ControllerIO.html">ControllerIO</a> &amp;swap, <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state, char *const avcMSG)</td></tr>
+<tr class="separator:adb41050b4232889a879f38553af19988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8564cce5ed75e9c5c1d57586aad8d4b0" id="r_a8564cce5ed75e9c5c1d57586aad8d4b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a8564cce5ed75e9c5c1d57586aad8d4b0">kynema::util::FilterGeneratorSpeed</a> (const <a class="el" href="structkynema_1_1util_1_1ControllerIO.html">ControllerIO</a> &amp;swap, <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state)</td></tr>
+<tr class="separator:a8564cce5ed75e9c5c1d57586aad8d4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de0e70eb87aac193160b74d6796f126" id="r_a9de0e70eb87aac193160b74d6796f126"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a9de0e70eb87aac193160b74d6796f126">kynema::util::VariableSpeedTorqueControl</a> (<a class="el" href="structkynema_1_1util_1_1ControllerIO.html">ControllerIO</a> &amp;swap, <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state)</td></tr>
+<tr class="separator:a9de0e70eb87aac193160b74d6796f126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7abe198054787f06354b8fd52b51ef" id="r_afb7abe198054787f06354b8fd52b51ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#afb7abe198054787f06354b8fd52b51ef">kynema::util::PitchControl</a> (<a class="el" href="structkynema_1_1util_1_1ControllerIO.html">ControllerIO</a> &amp;swap, <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state)</td></tr>
+<tr class="separator:afb7abe198054787f06354b8fd52b51ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa0f982dbde9ff4e3d85eb98792531f" id="r_a6fa0f982dbde9ff4e3d85eb98792531f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a6fa0f982dbde9ff4e3d85eb98792531f">kynema::util::ComputeControl</a> (<a class="el" href="structkynema_1_1util_1_1ControllerIO.html">ControllerIO</a> &amp;swap, <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state, char *const avcMSG)</td></tr>
+<tr class="separator:a6fa0f982dbde9ff4e3d85eb98792531f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00d935d3f7d8b11072a580249c373502" id="r_a00d935d3f7d8b11072a580249c373502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a00d935d3f7d8b11072a580249c373502">kynema::util::PackInternalStateToFile</a> (const <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state, const char *const accINFILE)</td></tr>
+<tr class="separator:a00d935d3f7d8b11072a580249c373502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4963d9d89fee3967a388ff05993f291f" id="r_a4963d9d89fee3967a388ff05993f291f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a4963d9d89fee3967a388ff05993f291f">kynema::util::UnpackInternalStateFromFile</a> (const char *const accINFILE, <a class="el" href="structkynema_1_1util_1_1InternalState.html">InternalState</a> &amp;state)</td></tr>
+<tr class="separator:a4963d9d89fee3967a388ff05993f291f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c2f9dc178d8951359c9b9386e74d82" id="r_a28c2f9dc178d8951359c9b9386e74d82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a28c2f9dc178d8951359c9b9386e74d82">kynema::util::DISCON</a> (float avrSWAP[], int *aviFAIL, const char *accINFILE, char *avcOUTNAME, char *avcMSG)</td></tr>
+<tr class="memdesc:a28c2f9dc178d8951359c9b9386e74d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Bladed-style DLL controller is used to implement a variable-speed generator-torque controller and PI collective blade pitch controller for the NREL Offshore 5MW baseline wind turbine. This routine was originally written in Fortran by J. Jonkman of NREL/NWTC for use in the IEA Annex XXIII OC3 studies.  <br /></td></tr>
+<tr class="separator:a28c2f9dc178d8951359c9b9386e74d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa659256c418ae1407ce42bdaa2d46156" id="r_aa659256c418ae1407ce42bdaa2d46156"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#aa659256c418ae1407ce42bdaa2d46156">kynema::util::kVS_CtInSp</a> {70.16224}</td></tr>
+<tr class="memdesc:aa659256c418ae1407ce42bdaa2d46156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transitional generator speed (HSS side) between regions 1 and 1 1/2, rad/s.  <br /></td></tr>
+<tr class="separator:aa659256c418ae1407ce42bdaa2d46156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3890e7462f1754f6642800588ebeb566" id="r_a3890e7462f1754f6642800588ebeb566"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a3890e7462f1754f6642800588ebeb566">kynema::util::kVS_DT</a> {0.000125}</td></tr>
+<tr class="memdesc:a3890e7462f1754f6642800588ebeb566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Communication interval for torque controller, sec.  <br /></td></tr>
+<tr class="separator:a3890e7462f1754f6642800588ebeb566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add07d704e0e66fb68e2798787bfaab87" id="r_add07d704e0e66fb68e2798787bfaab87"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#add07d704e0e66fb68e2798787bfaab87">kynema::util::kVS_MaxRat</a> {15000.}</td></tr>
+<tr class="memdesc:add07d704e0e66fb68e2798787bfaab87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum torque rate (in absolute value) in torque controller, N-m/s.  <br /></td></tr>
+<tr class="separator:add07d704e0e66fb68e2798787bfaab87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a285a3f096f59c539f9f113d3a4c62" id="r_ad5a285a3f096f59c539f9f113d3a4c62"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#ad5a285a3f096f59c539f9f113d3a4c62">kynema::util::kVS_MaxTq</a> {47402.91}</td></tr>
+<tr class="memdesc:ad5a285a3f096f59c539f9f113d3a4c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum generator torque in Region 3 (HSS side), N-m.  <br /></td></tr>
+<tr class="separator:ad5a285a3f096f59c539f9f113d3a4c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae947b0ed71d472ac003d0d537142f5a1" id="r_ae947b0ed71d472ac003d0d537142f5a1"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#ae947b0ed71d472ac003d0d537142f5a1">kynema::util::kVS_Rgn2K</a> {2.332287}</td></tr>
+<tr class="memdesc:ae947b0ed71d472ac003d0d537142f5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generator torque constant in Region 2 (HSS side), N-m/(rad/s)^2.  <br /></td></tr>
+<tr class="separator:ae947b0ed71d472ac003d0d537142f5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c1d60af61a6091d106fab15720b82c" id="r_a90c1d60af61a6091d106fab15720b82c"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a90c1d60af61a6091d106fab15720b82c">kynema::util::kVS_Rgn2Sp</a> {91.21091}</td></tr>
+<tr class="memdesc:a90c1d60af61a6091d106fab15720b82c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transitional generator speed (HSS side) between regions 1 1/2 and 2, rad/s.  <br /></td></tr>
+<tr class="separator:a90c1d60af61a6091d106fab15720b82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f925078db971d12e81fd5f1f45f48e" id="r_a64f925078db971d12e81fd5f1f45f48e"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a64f925078db971d12e81fd5f1f45f48e">kynema::util::kVS_Rgn3MP</a> {0.01745329}</td></tr>
+<tr class="separator:a64f925078db971d12e81fd5f1f45f48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cab356b89d39d002d5239750ae8df06" id="r_a7cab356b89d39d002d5239750ae8df06"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a7cab356b89d39d002d5239750ae8df06">kynema::util::kVS_RtGnSp</a> {121.6805}</td></tr>
+<tr class="memdesc:a7cab356b89d39d002d5239750ae8df06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rated generator speed (HSS side), rad/s.  <br /></td></tr>
+<tr class="separator:a7cab356b89d39d002d5239750ae8df06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ca84747da214d7a2be33439280e15f" id="r_ae7ca84747da214d7a2be33439280e15f"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#ae7ca84747da214d7a2be33439280e15f">kynema::util::kVS_RtPwr</a> {5296610.0}</td></tr>
+<tr class="memdesc:ae7ca84747da214d7a2be33439280e15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rated generator generator power in Region 3, Watts.  <br /></td></tr>
+<tr class="separator:ae7ca84747da214d7a2be33439280e15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10499c98fdcbc9ed3327a7eeaf14ad8e" id="r_a10499c98fdcbc9ed3327a7eeaf14ad8e"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a10499c98fdcbc9ed3327a7eeaf14ad8e">kynema::util::kCornerFreq</a> {1.570796}</td></tr>
+<tr class="separator:a10499c98fdcbc9ed3327a7eeaf14ad8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a93fe8810ed5958c76a44293bc70ad" id="r_a70a93fe8810ed5958c76a44293bc70ad"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a70a93fe8810ed5958c76a44293bc70ad">kynema::util::kOnePlusEps</a> {1.0 + 1.19e-07}</td></tr>
+<tr class="memdesc:a70a93fe8810ed5958c76a44293bc70ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">A value slightly greater than unity in single precision.  <br /></td></tr>
+<tr class="separator:a70a93fe8810ed5958c76a44293bc70ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7122d9388fc6b55f7f1163a9f67c7350" id="r_a7122d9388fc6b55f7f1163a9f67c7350"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a7122d9388fc6b55f7f1163a9f67c7350">kynema::util::kPC_DT</a> {0.000125}</td></tr>
+<tr class="memdesc:a7122d9388fc6b55f7f1163a9f67c7350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Communication interval for the pitch controller, sec.  <br /></td></tr>
+<tr class="separator:a7122d9388fc6b55f7f1163a9f67c7350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1ab6b223fe2e0429349ede1510c89e" id="r_a5e1ab6b223fe2e0429349ede1510c89e"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a5e1ab6b223fe2e0429349ede1510c89e">kynema::util::kPC_KI</a> {0.008068634}</td></tr>
+<tr class="memdesc:a5e1ab6b223fe2e0429349ede1510c89e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral gain for pitch controller at rated pitch (zero), (-)  <br /></td></tr>
+<tr class="separator:a5e1ab6b223fe2e0429349ede1510c89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a3f1521f5a725dedd2730c15ba5c23" id="r_a89a3f1521f5a725dedd2730c15ba5c23"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a89a3f1521f5a725dedd2730c15ba5c23">kynema::util::kPC_KK</a> {0.1099965}</td></tr>
+<tr class="separator:a89a3f1521f5a725dedd2730c15ba5c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8405a6b84fc96c07fcdb559fa7e5aeb" id="r_af8405a6b84fc96c07fcdb559fa7e5aeb"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#af8405a6b84fc96c07fcdb559fa7e5aeb">kynema::util::kPC_KP</a> {0.01882681}</td></tr>
+<tr class="memdesc:af8405a6b84fc96c07fcdb559fa7e5aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proportional gain for pitch controller at rated pitch (zero), sec.  <br /></td></tr>
+<tr class="separator:af8405a6b84fc96c07fcdb559fa7e5aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80cbe8f208d7734c61065214b15a94b" id="r_aa80cbe8f208d7734c61065214b15a94b"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#aa80cbe8f208d7734c61065214b15a94b">kynema::util::kPC_MaxPit</a> {1.570796}</td></tr>
+<tr class="memdesc:aa80cbe8f208d7734c61065214b15a94b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum pitch setting in pitch controller, rad.  <br /></td></tr>
+<tr class="separator:aa80cbe8f208d7734c61065214b15a94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b149c51096e32dd371c13e99361890" id="r_a35b149c51096e32dd371c13e99361890"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a35b149c51096e32dd371c13e99361890">kynema::util::kPC_MaxRat</a> {0.1396263}</td></tr>
+<tr class="memdesc:a35b149c51096e32dd371c13e99361890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum pitch rate (in absolute value) in pitch controller, rad/s.  <br /></td></tr>
+<tr class="separator:a35b149c51096e32dd371c13e99361890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e0d03ff66eba8de340f68afb9835bd6" id="r_a6e0d03ff66eba8de340f68afb9835bd6"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#a6e0d03ff66eba8de340f68afb9835bd6">kynema::util::kPC_MinPit</a> {0.0}</td></tr>
+<tr class="memdesc:a6e0d03ff66eba8de340f68afb9835bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum pitch setting in pitch controller, rad.  <br /></td></tr>
+<tr class="separator:a6e0d03ff66eba8de340f68afb9835bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7a3dbbd079386563f4e0bcf6e1bfd7" id="r_aaa7a3dbbd079386563f4e0bcf6e1bfd7"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#aaa7a3dbbd079386563f4e0bcf6e1bfd7">kynema::util::kPC_RefSpd</a> {122.9096}</td></tr>
+<tr class="memdesc:aaa7a3dbbd079386563f4e0bcf6e1bfd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Desired (reference) HSS speed for pitch controller, rad/s.  <br /></td></tr>
+<tr class="separator:aaa7a3dbbd079386563f4e0bcf6e1bfd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13a36f57e92bf99223803f4c953ed88" id="r_ac13a36f57e92bf99223803f4c953ed88"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekynema_1_1util.html#ac13a36f57e92bf99223803f4c953ed88">kynema::util::kVS_SlPc</a> {10.0}</td></tr>
+<tr class="memdesc:ac13a36f57e92bf99223803f4c953ed88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factor to convert radians to degrees.  <br /></td></tr>
+<tr class="separator:ac13a36f57e92bf99223803f4c953ed88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023 - Present, MIT License.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

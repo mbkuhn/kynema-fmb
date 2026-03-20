@@ -1,0 +1,23 @@
+.. meta::5b46002f6cfd308f9cace1480f779e8b4e24ed1e5c1498c9d6914d68c90f4c58c371a42610a0f43f70ecefefafc8aae554b2c66f4dc5f6274fac12bbde1357a5
+
+:orphan:
+
+.. title:: Kynema API: Kynema API documentation
+
+Kynema API
+==========
+
+.. toctree::
+   :caption: Main Page
+   :maxdepth: 2
+   :hidden:
+
+   Namespaces <namespaces_namespaces>
+   Classes <annotated_classes>
+   Files <files_files>
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: index.html

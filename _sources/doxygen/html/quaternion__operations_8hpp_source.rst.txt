@@ -1,0 +1,14 @@
+.. meta::38cc53256aa0795a96781cddf93deba33f2945528d9dace104d7be1df26a40f53c93e26bb938e50eefc48d72b809bdabd98c48a0c63265b51ccb1c79b8564cb9
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/math/quaternion_operations.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/math/quaternion\_operations.hpp Source File
+======================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: quaternion__operations_8hpp_source.html

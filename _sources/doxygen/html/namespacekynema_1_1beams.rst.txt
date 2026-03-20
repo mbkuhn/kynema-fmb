@@ -1,0 +1,14 @@
+.. meta::1337419bc24ac6e0d22648128d95b63241b88808776fa6fe5fa645d594eee95047ec72164ede0b95ee1159e00dea0126401b7726426df23ef92095dc7722ca3b
+
+:orphan:
+
+.. title:: Kynema API: kynema::beams Namespace Reference
+
+beams Namespace Reference
+=========================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: namespacekynema_1_1beams.html

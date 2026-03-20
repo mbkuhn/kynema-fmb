@@ -1,0 +1,14 @@
+.. meta::7316250e50e571a8d3de634bddbb919e4736788f09bf8700a4dfefa4a2165552a66530a5471a14073869cd11dac970ac3d076d962a5a32c9d3e25056430fd8d4
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/constraint_data.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/constraint\_data.hpp File Reference
+=========================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: constraint__data_8hpp.html

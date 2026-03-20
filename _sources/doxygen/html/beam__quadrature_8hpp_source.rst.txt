@@ -1,0 +1,14 @@
+.. meta::f729317f33af8985de3bfa0258b717e28acddb840d2625d4243d9042e8acd2a2ec50828856415c43ba2964f7be8ae2fd151086d3d719e1e83e576c68204a508b
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/elements/beams/beam_quadrature.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/elements/beams/beam\_quadrature.hpp Source File
+==========================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: beam__quadrature_8hpp_source.html

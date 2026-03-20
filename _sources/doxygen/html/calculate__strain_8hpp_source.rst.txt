@@ -1,0 +1,14 @@
+.. meta::9d9ca562488ab4895379c1f020e6c670fa6cbdddbb93bea47c6d64842a66addca5542dfb10467f5942e74bac4e4ad88ed5b2ee935c6a74fc59754184e7cf81a8
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/system/beams/calculate_strain.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/system/beams/calculate\_strain.hpp Source File
+=========================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: calculate__strain_8hpp_source.html

@@ -1,0 +1,14 @@
+.. meta::de24583f12bd3c1bc5bd3bef95672eac80cc47fc09dcd20c045dd45ffe7e0c34b6605efb6f0b6515c24b9fc6586fc19b1773b0bcc16f7f56403294e6bf30af5d
+
+:orphan:
+
+.. title:: Kynema API: windio Namespace Reference
+
+windio Namespace Reference
+==========================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: namespacewindio.html

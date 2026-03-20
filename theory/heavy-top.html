@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heavy top constrained-rigid-body example &mdash; Kynema 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Rigid body with three springs" href="rb-springs.html" />
+    <link rel="prev" title="Model configurations" href="configs.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Kynema
+              <img src="../_static/oturb_logo_v2.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/user.html">User Manual</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Theory Manual</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Formulation overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gen-alpha.html">Time integration: Generalized-Alpha</a></li>
+<li class="toctree-l2"><a class="reference internal" href="member-types.html">Member library</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="configs.html">Model configurations</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Heavy top constrained-rigid-body example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rb-springs.html">Rigid body with three springs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hawt.html">Model bodies and constraints for a HAWT</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="fsi-api.html">Coupling for fluid-structure-interaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="blade-element.html">Blade-element aerodynamics solver</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Benchmark Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../publications.html">Kynema Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acknowledgement.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kynema</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Theory Manual</a></li>
+          <li class="breadcrumb-item"><a href="configs.html">Model configurations</a></li>
+      <li class="breadcrumb-item active">Heavy top constrained-rigid-body example</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/theory/heavy-top.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="heavy-top-constrained-rigid-body-example">
+<span id="sec-heavy-top"></span><h1>Heavy top constrained-rigid-body example<a class="headerlink" href="#heavy-top-constrained-rigid-body-example" title="Permalink to this heading"></a></h1>
+<p>We provide here a simple application of the Kynema formulation for the
+heavy-top problem, which is a rotating body fixed to the ground by a spherical
+joint. It is a common benchmark problem for constrained-rigid-body dynamics and
+for testing Lie-group time integrators like that used in Kynema. Our approach
+follows much of what is described in in [&#64;Bruls-etal:2012], but with the key
+differences that we formulate the problem in inertial coordinates rather than
+material coordinates and we include three translational DOFs for the spherical joint, <span class="math notranslate nohighlight">\(\underline{u}_\mathrm{SJ}\)</span>.   The generalized coordinates for this problem are</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{q} = \begin{bmatrix}
+ \underline{u}_\mathrm{HT} \\
+ \underline{\underline{R}}_\mathrm{HT} \\
+ \underline{u}_\mathrm{SJ}
+\end{bmatrix}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\underline{q} = \mathbb{R}^{9}\)</span>.</p>
+<p>We assume the heavy top is a thin disk with mass
+<span class="math notranslate nohighlight">\(m=15\)</span> kg. The <span class="math notranslate nohighlight">\(6\times6\)</span> mass matrix in material coordinates is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{\underline{M}}^*_\mathrm{HT} = \begin{bmatrix}
+15 \mathrm{~kg}&amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 15 \mathrm{~kg} &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 15 \mathrm{~kg} &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0.234375 \mathrm{~kg~m}^2 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp;  0.46875 \mathrm{~kg~m}^2 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0.234375 \mathrm{~kg~m}^2 \\
+\end{bmatrix}\end{split}\]</div>
+<p>and the <span class="math notranslate nohighlight">\(9\times9\)</span> system mass matrix in material coordinates is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{\underline{M}}^* = \begin{bmatrix}
+\underline{\underline{M}}^*_\mathrm{HT} &amp; \underline{\underline{0}}\\
+\underline{\underline{0}} &amp; \underline{\underline{0}}
+\end{bmatrix}\end{split}\]</div>
+<p>The heavy-top center of mass reference position and orientation (see
+Eq. <a class="reference internal" href="rigid.html#equation-rigid-ref">(5)</a>) are given by</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{x}^\mathrm{r}_\mathrm{HT} = ( 0, 1 , 0 )^T\, \mathrm{m}, \quad
+\underline{\underline{R}}^\mathrm{r}_\mathrm{HT} = \underline{\underline{I}} \,, \\\end{split}\]</div>
+<p>respectively. The only component of external force (see
+Eq. <a class="reference internal" href="rigid.html#equation-rbresid">(6)</a>) is gravity:</p>
+<div class="math notranslate nohighlight">
+\[\underline{f} = [0,0,-g,0,0,0,0,0,0]^T\]</div>
+<p>where <span class="math notranslate nohighlight">\(g=9.81\)</span> m/s<span class="math notranslate nohighlight">\(^2\)</span>.</p>
+<p>The problem is constrained such that the spherical joint is located at the global origin, the heavy-top center of mass is located 1 m from the
+origin, and the heavy-top body-attached-coordinate-system y-axis is pointing away from the global origin.  The Kynema implementation employs the following constraint:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{\Phi} = \begin{bmatrix}
+\underline{u}_\mathrm{HT} - \underline{u}_\mathrm{SJ}
+- \left( \underline{\underline{R}}_\mathrm{HT} - \underline{\underline{I}}\right)
+\underline{x}^r_\mathrm{HT} \\
+\underline{u}_\mathrm{SJ}
+\end{bmatrix}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\underline{\Phi} \in  \mathbb{R}^6\)</span>, and the contraints <span class="math notranslate nohighlight">\(\underline{\lambda} \in \mathbb{R}^6\)</span> are denoted</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{\lambda} = \begin{bmatrix}
+ \underline{\lambda}_\mathrm{HT} \\
+ \underline{\lambda}_\mathrm{SJ}
+\end{bmatrix}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\underline{\lambda}_\mathrm{HT},\, \underline{\lambda}_\mathrm{SJ}
+\in \mathbb{R}^3\)</span>.</p>
+<p>The constraint gradient matrix is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{\underline{B}} = \begin{bmatrix}
+  \underline{\underline{I}} &amp; \widetilde{ \underline{\underline{R}}_\mathrm{HT} \underline{x}^{\mathrm{r}}_\mathrm{HT} } &amp; - \underline{\underline{I}} \\
+  \underline{\underline{0}} &amp;
+  \underline{\underline{0}} &amp;
+  \underline{\underline{I}}
+\end{bmatrix}\end{split}\]</div>
+<p>and the contribution to the iteration matrix in Eq. <a class="reference internal" href="gen-alpha.html#equation-iteration">(4)</a> is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\underline{\underline{K}}^\Phi = \begin{bmatrix}
+  \underline{\underline{0}} &amp;
+  \underline{\underline{0}} &amp;
+  \underline{\underline{0}} \\
+  \underline{\underline{0}} &amp;
+  \widetilde{\lambda_\mathrm{HT}}
+  \widetilde{\underline{\underline{R}}_\mathrm{HT} \underline{x}^{\mathrm{r}}_\mathrm{HT} }  &amp; \underline{\underline{0}}  \\
+  \underline{\underline{0}} &amp;
+  \underline{\underline{0}} &amp;
+  \underline{\underline{0}}
+\end{bmatrix}\end{split}\]</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The term <span class="math notranslate nohighlight">\(\underline{\underline{K}}^\Phi\)</span> is include here for
+completeness, but is not in the current Kynema implementation, and
+nonlinear-system convergence has been satisfactory.</p>
+</div>
+<p>The Kynema regression test suite includes the spinning, heavy top
+problem with the following initial conditions:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\underline{u}^\mathrm{init}_\mathrm{HT} &amp;= \left[ 0, 0, 0 \right]^T \,
+\mathrm{m}\\
+\underline{\underline{R}}_\mathrm{HT}^\mathrm{init} &amp;=  \underline{\underline{R}}^\mathrm{r}_\mathrm{HT} \\
+\underline{u}^\mathrm{init}_\mathrm{SJ} &amp;= \left[ 0, 0, 0 \right]^T \,
+\mathrm{m}
+\end{aligned}\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\dot{\underline{u}}^\mathrm{init}_\mathrm{HT} &amp;=
+\widetilde{\omega^\mathrm{init}_\mathrm{HT}}
+\left(\underline{x}^\mathrm{r}_\mathrm{HT}
++\underline{u}^\mathrm{init}_\mathrm{HT}\right) \\
+\omega^\mathrm{init}_\mathrm{HT} &amp;= (0, 150, -4.61538)^T \,
+\mathrm{rad/s}\\
+\dot{\underline{u}}^\mathrm{init}_\mathrm{SJ} &amp;= \left[ 0, 0, 0 \right]^T\,
+\mathrm{m/s}
+\end{aligned}\end{split}\]</div>
+<div class="references csl-bib-body hanging-indent docutils container" id="refs">
+<div class="csl-entry docutils container" id="ref-bruls-etal-2012">
+<p>Brüls, O., A. Cardona, and M. Arnold. 2012. “Lie Group
+Generalized-<span class="math notranslate nohighlight">\(\alpha\)</span> Time Integration For Constrained
+Flexible Multibody Systems.” <em>Mechanism and Machine Theory</em>,
+121–37.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="configs.html" class="btn btn-neutral float-left" title="Model configurations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rb-springs.html" class="btn btn-neutral float-right" title="Rigid body with three springs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023 - Present, MIT License.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

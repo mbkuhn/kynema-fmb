@@ -1,0 +1,14 @@
+.. meta::a94fa1a17850ad9e0943d20be16b294f6f4bf67536840c563945972a5b2f0e2d15ecaf3598551433e7758408c06bd415b386e5b1f8d5d05d9fd1f97a11828423
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/math Directory Reference
+
+/home/runner/work/kynema/kynema/kynema/src/math Directory Reference
+===================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_ae9a93452e2a84339148a16bcf2eb561.html

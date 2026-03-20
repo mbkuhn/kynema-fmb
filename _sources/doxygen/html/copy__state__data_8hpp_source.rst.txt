@@ -1,0 +1,14 @@
+.. meta::2e408d1a0539400dd264b5a42105273223d3adf3d55f037acc54feef1dde2766e20c90fab8cb7ed5fe24c93f5876355e7c6f92e184c3b094b204d818c07f77ef
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/state/copy_state_data.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/state/copy\_state\_data.hpp Source File
+==================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: copy__state__data_8hpp_source.html

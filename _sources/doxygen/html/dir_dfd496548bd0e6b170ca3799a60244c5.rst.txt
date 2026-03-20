@@ -1,0 +1,14 @@
+.. meta::b2359e44ebed47b044edc89e0f5c96b458d9532ef1fdec590066eb80c1abc756b8cf253995942e21ed179d7c79f0f1835aa62202431a93681bb5a34ae5cc3936
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/utilities/netcdf Directory Reference
+
+/home/runner/work/kynema/kynema/kynema/src/utilities/netcdf Directory Reference
+===============================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_dfd496548bd0e6b170ca3799a60244c5.html

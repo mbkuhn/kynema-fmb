@@ -1,0 +1,14 @@
+.. meta::ce9a99b36c4788114aa92e5960730de315b048fe4d2fff6c7f343b3c44c89d8dcafed0acdd660b1079b4eccb66787e193fb9ec28d4a6a420e0bf91360f3d4a8a
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/cfd/floating_platform_input.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/cfd/floating\_platform\_input.hpp Source File
+===================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: floating__platform__input_8hpp_source.html

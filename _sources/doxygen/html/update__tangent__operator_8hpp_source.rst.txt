@@ -1,0 +1,14 @@
+.. meta::6568bec18719c6c09573e9535b2f6ffaa8a92206df5a620a47457c83a6d1fc8d84b043156edff1793e662fac3e5df64fdf80681709364debef5c121bcbf3772a
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/step/update_tangent_operator.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/step/update\_tangent\_operator.hpp Source File
+=========================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: update__tangent__operator_8hpp_source.html

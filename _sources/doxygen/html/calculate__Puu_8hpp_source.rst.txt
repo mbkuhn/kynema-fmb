@@ -1,0 +1,14 @@
+.. meta::703dc7aceef59c24d554fde7379224d5f306958b7aed3b9c92faa5ad011b1b14f38fe65fed232b087168ad4177995e2a1391edb3aa7f8f58d9e23b8737ffa80f
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/system/beams/calculate_Puu.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/system/beams/calculate\_Puu.hpp Source File
+======================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: calculate__Puu_8hpp_source.html

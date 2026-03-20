@@ -1,0 +1,14 @@
+.. meta::7a6ee63e2a0e7cc7ff7898b95cd5b1eb6c2495337435368b184a7e1712952c8f4176e2cdb5b4ecd68930be30c24b0b040af11df22803ae2a7d9ac4051e8d0fe2
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/constraints/calculate_rotation_control_constraint.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/constraints/calculate\_rotation\_control\_constraint.hpp Source File
+===============================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: calculate__rotation__control__constraint_8hpp_source.html

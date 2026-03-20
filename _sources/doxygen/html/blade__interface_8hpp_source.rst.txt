@@ -1,0 +1,14 @@
+.. meta::ed83751cbaf5ea91b05eca5470110a6a49e08a6ef6391af071483bf858bd22c40ffa8c4e8ac12057aeb85cabddd9f53b06f6ccf40957005d02b59ad73b7477c6
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/blade/blade_interface.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/blade/blade\_interface.hpp Source File
+============================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: blade__interface_8hpp_source.html

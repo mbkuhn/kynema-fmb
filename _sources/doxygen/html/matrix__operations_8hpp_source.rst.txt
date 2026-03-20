@@ -1,0 +1,14 @@
+.. meta::d9022cd6fa2e5301af4d40d2fbf7add4c068277ded1a18f23efb99cbe82fa24299846c359ba0d8912327c08cc8bf6d3133d75f4f6456d57f731659037013de99
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/math/matrix_operations.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/math/matrix\_operations.hpp Source File
+==================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: matrix__operations_8hpp_source.html

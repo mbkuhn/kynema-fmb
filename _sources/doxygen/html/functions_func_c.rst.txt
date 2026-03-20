@@ -1,0 +1,14 @@
+.. meta::d6b6261884cdddcb2511275bc343587461d88f9c03a68f32e8c03235897fb876c48ad6328ee1c9bf3cc8f459d2eed74a9ba0fad2e4a58cee3f18256b9c2a063e
+
+:orphan:
+
+.. title:: Kynema API: Class Members - Functions
+
+Class Members - Functions
+=========================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: functions_func_c.html

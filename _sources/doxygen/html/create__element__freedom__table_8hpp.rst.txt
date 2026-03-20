@@ -1,0 +1,14 @@
+.. meta::57ea6a06f2bbe0a79b63bd3856da99d57474f4948ab67f87ae3b5c0089d073463d36b1c9503839449fe3f33168ff872b609ac48fe75485aee67d8af6853dba3d
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/dof_management/create_element_freedom_table.hpp File Reference
+
+/home/runner/work/kynema/kynema/kynema/src/dof\_management/create\_element\_freedom\_table.hpp File Reference
+=============================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: create__element__freedom__table_8hpp.html

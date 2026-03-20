@@ -1,0 +1,14 @@
+.. meta::a6927938a8428988eab9eb5872dd298dff295429e4aadf66769de9f845ba241e8fbe3b43695c3f528e20cd5e562ed54ed69ec2fa781562f93fe3921c809cdb64
+
+:orphan:
+
+.. title:: Kynema API: /home/runner/work/kynema/kynema/kynema/src/interfaces/components/beam.hpp Source File
+
+/home/runner/work/kynema/kynema/kynema/src/interfaces/components/beam.hpp Source File
+=====================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: beam_8hpp_source.html
